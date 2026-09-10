@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-container-lowest":"#ffffff","inverse-surface":"#2b313c","surface-container-low":"#f0f3ff","surface":"#f9f9ff","outline":"#74777f","surface-container":"#e8eefd","on-tertiary":"#ffffff","on-error":"#ffffff","surface-variant":"#dde2f2","on-secondary-fixed-variant":"#633f00","on-primary-container":"#8ba5cf","on-secondary-fixed":"#291800","primary-container":"#0b315b","tertiary-container":"#411d00","surface-dim":"#d4dae9","on-error-container":"#93000a","on-primary-fixed-variant":"#2e486c","secondary":"#835500","background":"#f9f9ff","on-tertiary-fixed-variant":"#683c1a","primary":"#08274A","surface-tint":"#465f85","on-secondary-container":"#6e4600","secondary-container":"#FCB242","primary-fixed":"#d5e3ff","surface-container-high":"#e3e8f8","tertiary-fixed":"#ffdcc6","on-primary":"#ffffff","on-tertiary-container":"#ba8159","inverse-primary":"#aec8f3","on-surface":"#161c27","secondary-fixed-dim":"#ffb954","on-tertiary-fixed":"#301400","tertiary":"#220c00","on-primary-fixed":"#001c3b","primary-fixed-dim":"#aec8f3","on-background":"#161c27","on-secondary":"#ffffff","secondary-fixed":"#ffddb4","surface-bright":"#f9f9ff","tertiary-fixed-dim":"#f9b98d","surface-container-highest":"#dde2f2","error-container":"#ffdad6","inverse-on-surface":"#ecf0ff","outline-variant":"#c4c6cf","on-surface-variant":"#43474e","error":"#ba1a1a","amber-gold":"#FCB242","deep-navy":"#08274A","whatsapp":"#25D366","whatsapp-hover":"#1faa52"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-lg":"1.5rem","space-sm":"0.75rem","space-md":"1rem","gutter-desktop":"1.5rem","space-3xl":"4rem","container-max":"1280px","gutter-mobile":"1rem","space-2xl":"3rem","space-xl":"2rem","space-2xs":"0.25rem","space-4xl":"6rem","space-xs":"0.5rem"},"fontFamily":{"display":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"body-md":["Inter"],"body-lg":["Inter"],"label-md":["Inter"],"body-sm":["Inter"],"label-sm":["Inter"],"headline-xl":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"code-tech":["Inter"],"display-mobile":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"]},"fontSize":{"display":["56px",{"lineHeight":"64px","letterSpacing":"-0.025em","fontWeight":"800"}],"headline-xl-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"700"}],"body-md":["16px",{"lineHeight":"24px","letterSpacing":"0","fontWeight":"400"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"-0.005em","fontWeight":"400"}],"label-md":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"20px","letterSpacing":"0","fontWeight":"400"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"600"}],"headline-xl":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"700"}],"code-tech":["13px",{"lineHeight":"18px","letterSpacing":"0.02em","fontWeight":"600"}],"display-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"800"}],"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"0","fontWeight":"600"}]}}}};</script></head><body class="bg-background font-body-md text-body-md text-on-background selection:bg-amber-gold selection:text-primary"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/95 backdrop-blur-md shadow-[0_1px_8px_rgba(8,39,74,0.06)] border-b border-surface-container"><div class="h-20 max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Conblock Prima Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UOfnmOHcYO4GSu4_eGwanl80G12ED1yVVHTjA4pNY555CYEztzHDDoPUU1CzpdEu7HlNp1eYwLEBwqhb0un7Zu475aaJjvx41YReROoWJgjDLUEEP1Nn0DKWdeWsOgKMuPEeg3VSa2_vtxVW-mTs8Y1AxlY2iw6Fx4wJYGJmgaYGhtSCm-CyXLDWHxS3OSIIfesUMhQQYrihh0CDsFrMexg7AEGev1ntSmUI2VQYE2KUU6SDbbV07l0rc6"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none font-bold">CONBLOCK PRIMA</span><span class="font-code-tech text-code-tech text-on-surface-variant tracking-wider uppercase leading-none mt-1">Indonesia Precision Hardscape</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container text-primary font-bold rounded-lg"><a aria-current="page" class="px-space-sm py-space-xs transition-colors bg-surface-container text-primary font-bold rounded-lg border-b-2 border-amber-gold" data-path="beranda" href="#">Beranda</a><a class="px-space-sm py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="produk" href="#">Produk</a><a class="px-space-sm py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="keunggulan" href="#">Keunggulan</a><a class="px-space-sm py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="galeri" href="#">Galeri</a><a class="px-space-sm py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="testimoni" href="#">Testimoni</a><a class="px-space-sm py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="kontak" href="#">Kontak</a></nav><div class="flex items-center gap-space-sm"><a class="hidden sm:inline-flex items-center gap-space-xs bg-[#25D366] hover:bg-[#1faa52] text-on-primary px-space-md py-space-xs rounded-lg font-label-md text-label-md shadow-[0_2px_8px_rgba(37,211,102,0.35)] transition-all transform hover:-translate-y-0.5" href="https://wa.me/628118920443?text=Halo%20Conblock%20Prima,%20saya%20ingin%20konsultasi%20penawaran%20harga%20paving%20block" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]">chat</span><span>Pesan via WhatsApp</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full overflow-hidden">
+<!-- HERO SECTION -->
+<section class="relative w-full bg-surface-container-low/50 pb-space-3xl pt-space-xl border-b border-surface-container">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Hero Text Column -->
+<div class="lg:col-span-6 flex flex-col items-start">
+<div class="inline-flex items-center gap-space-2xs bg-surface-container-lowest border border-amber-gold/40 px-space-sm py-1 rounded-full mb-space-md shadow-sm">
+<span class="material-symbols-outlined text-[18px] text-amber-gold">verified_user</span>
+<span class="font-code-tech text-code-tech text-primary uppercase tracking-wider font-semibold">Pabrikasi Hidrolik Otomatis SNI</span>
+</div>
+<h1 class="font-display text-headline-xl lg:text-display text-primary leading-tight font-extrabold tracking-tight mb-space-md">
+            Paving Block Berkualitas <span class="text-amber-gold">untuk Setiap Kebutuhan Anda</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed mb-space-xl max-w-xl">
+            Solusi conblock mutu beton presisi K-300 hingga K-500 dengan daya tahan beban tinggi, anti-licin, dan estetika arsitektural modern untuk perumahan, kawasan industri, dan jalan raya.
+          </p>
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-sm w-full sm:w-auto">
+<a class="inline-flex items-center justify-center gap-space-xs bg-[#25D366] hover:bg-[#1faa52] text-on-primary px-space-lg py-3.5 rounded-xl font-label-md text-label-md shadow-[0_8px_20px_rgba(37,211,102,0.35)] transition-all transform hover:-translate-y-0.5 font-bold" href="https://wa.me/628118920443?text=Halo%20Conblock%20Prima,%20saya%20ingin%20konsultasi%20penawaran%20harga%20paving%20block" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[22px]">chat</span>
+<span>Konsultasi via WhatsApp</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-xs bg-surface-container-lowest hover:bg-surface-container text-primary border border-surface-container px-space-lg py-3.5 rounded-xl font-label-md text-label-md shadow-sm transition-all transform hover:-translate-y-0.5 font-semibold" href="#katalog-produk">
+<span class="material-symbols-outlined text-[20px] text-primary">view_quilt</span>
+<span>Lihat Katalog Produk</span>
+</a>
+</div>
+<!-- Trust Badges Under Buttons -->
+<div class="grid grid-cols-3 gap-space-xs mt-space-xl pt-space-md w-full border-t border-surface-container">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-amber-gold text-[20px]">check_circle</span>
+<span class="font-code-tech text-code-tech text-on-surface-variant font-medium">Mutu K-300 - K-500</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-amber-gold text-[20px]">shield</span>
+<span class="font-code-tech text-code-tech text-on-surface-variant font-medium">Garansi 10 Tahun</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-amber-gold text-[20px]">factory</span>
+<span class="font-code-tech text-code-tech text-on-surface-variant font-medium">Direct Factory</span>
+</div>
+</div>
+</div>
+<!-- Hero Visual Showcase -->
+<div class="lg:col-span-6 relative">
+<div class="relative rounded-2xl overflow-hidden shadow-2xl bg-surface-container border border-surface-container-high">
+<img alt="Instalasi Paving Block Arsitektural Mewah" class="w-full h-[460px] object-cover hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida/AEtjO1W6A4v3nP4c_z5gT3n4nn1nqEcF3p16aU0LnJ-ii5_18Qmel_zDRwL-YTVXYB-yYhdNwbuwmUDoIPbUNk8xf6J8ZxS5zhWwKuVOLeAf920hfz-SdPoEbsMSB2k9GVMlR0xwDofL66iINtvMIOWSmjilCm-kWfcS3y-QX6DYmqChyR7kahOBmM5jVaTp9qv_6QhT018rV_CO-z9JGWbczHPzOUOoZ9KWe411H4bgP5we9Ehye6f_0g1AJMU"/>
+<!-- Floating Feature Overlays -->
+<div class="absolute top-4 left-4 bg-primary/90 backdrop-blur-md text-on-primary px-space-sm py-2 rounded-lg shadow-lg flex items-center gap-space-xs border border-primary-container">
+<span class="w-2.5 h-2.5 rounded-full bg-[#25D366] animate-pulse"></span>
+<span class="font-label-sm text-label-sm font-semibold">Proyek Hunian Modern Serpong</span>
+</div>
+<div class="absolute bottom-4 right-4 left-4 sm:left-auto bg-surface-container-lowest/95 backdrop-blur-md p-space-sm rounded-xl shadow-xl flex items-center gap-space-md border border-surface-container">
+<div class="w-12 h-12 rounded-lg bg-amber-gold/15 flex items-center justify-center text-amber-gold">
+<span class="material-symbols-outlined text-[28px]">precision_manufacturing</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-primary font-bold">Pabrikasi Hidrolik Presisi</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Toleransi presisi ±1.5mm sudut rapi</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- KEY STATS STRIP -->
+<section class="w-full bg-[#08274A] text-on-primary py-space-xl border-y border-primary-container">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-md lg:gap-space-xl text-center md:text-left">
+<div class="flex flex-col md:border-r border-primary-container/80 pr-space-md">
+<span class="font-display text-headline-xl lg:text-display text-amber-gold leading-none font-black">500k+</span>
+<span class="font-label-md text-label-md text-surface-bright mt-1">m² Paving Terpasang</span>
+<span class="font-code-tech text-code-tech text-on-primary-container mt-0.5">Komersial &amp; Residensial</span>
+</div>
+<div class="flex flex-col md:border-r border-primary-container/80 pr-space-md">
+<span class="font-display text-headline-xl lg:text-display text-amber-gold leading-none font-black">99.4%</span>
+<span class="font-label-md text-label-md text-surface-bright mt-1">Presisi Dimensi Pabrik</span>
+<span class="font-code-tech text-code-tech text-on-primary-container mt-0.5">Sesuai SNI 03-0691</span>
+</div>
+<div class="flex flex-col md:border-r border-primary-container/80 pr-space-md">
+<span class="font-display text-headline-xl lg:text-display text-amber-gold leading-none font-black">15+</span>
+<span class="font-label-md text-label-md text-surface-bright mt-1">Tahun Pengalaman</span>
+<span class="font-code-tech text-code-tech text-on-primary-container mt-0.5">Sejak 2009 di Indonesia</span>
+</div>
+<div class="flex flex-col">
+<span class="font-display text-headline-xl lg:text-display text-amber-gold leading-none font-black">100%</span>
+<span class="font-label-md text-label-md text-surface-bright mt-1">Jangkauan Pengiriman</span>
+<span class="font-code-tech text-code-tech text-on-primary-container mt-0.5">Jabodetabek &amp; Seluruh RI</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: KENAPA PILIH KAMI -->
+<section class="w-full py-space-4xl bg-surface">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
+<div class="flex flex-col items-center text-center mb-space-3xl">
+<span class="font-code-tech text-code-tech uppercase tracking-widest text-amber-gold font-bold mb-space-2xs">Keunggulan Spesifikasi</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight">Standar Kualitas Tanpa Kompromi</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mt-space-xs">Diformulasikan dengan teknologi hydraulic vibro-press mutakhir untuk memberikan ketahanan maksimal di segala jenis medan.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Card 1 -->
+<div class="group bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between border border-surface-container hover:border-amber-gold/40">
+<div>
+<div class="w-14 h-14 rounded-xl bg-surface-container-low flex items-center justify-center text-amber-gold group-hover:bg-amber-gold group-hover:text-primary transition-colors mb-space-md shadow-inner">
+<span class="material-symbols-outlined text-[32px]">fitness_center</span>
+</div>
+<span class="inline-block px-2.5 py-0.5 rounded bg-primary text-on-primary font-code-tech text-code-tech uppercase mb-space-xs font-semibold">Heavy Load</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-space-xs">Tahan Lama &amp; Kuat Beban</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Komposisi agregat pilihan dengan uji tekan laboratorium, sanggup menahan beban truk tronton &amp; kontainer hingga 40 ton.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center text-amber-gold font-label-sm text-label-sm font-semibold gap-1 group-hover:translate-x-1 transition-transform">
+<span>Uji Lab SNI Terverifikasi</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between border border-surface-container hover:border-amber-gold/40">
+<div>
+<div class="w-14 h-14 rounded-xl bg-surface-container-low flex items-center justify-center text-amber-gold group-hover:bg-amber-gold group-hover:text-primary transition-colors mb-space-md shadow-inner">
+<span class="material-symbols-outlined text-[32px]">texture</span>
+</div>
+<span class="inline-block px-2.5 py-0.5 rounded bg-primary text-on-primary font-code-tech text-code-tech uppercase mb-space-xs font-semibold">Safety First</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-space-xs">Permukaan Anti-Licin</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Tekstur micro-grip teruji aman untuk lintasan pedestrian, carport basah, maupun tanjakan parkir komersial curam.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center text-amber-gold font-label-sm text-label-sm font-semibold gap-1 group-hover:translate-x-1 transition-transform">
+<span>Aman untuk Cuaca Ekstrem</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="group bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between border border-surface-container hover:border-amber-gold/40">
+<div>
+<div class="w-14 h-14 rounded-xl bg-surface-container-low flex items-center justify-center text-amber-gold group-hover:bg-amber-gold group-hover:text-primary transition-colors mb-space-md shadow-inner">
+<span class="material-symbols-outlined text-[32px]">payments</span>
+</div>
+<span class="inline-block px-2.5 py-0.5 rounded bg-primary text-on-primary font-code-tech text-code-tech uppercase mb-space-xs font-semibold">Best Value</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-space-xs">Harga Pabrik Langsung</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Penawaran tangan pertama tanpa perantara dengan opsi diskon volume proyek besar dan skema tempo B2B fleksibel.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center text-amber-gold font-label-sm text-label-sm font-semibold gap-1 group-hover:translate-x-1 transition-transform">
+<span>Diskon Proyek Terbuka</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="group bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between border border-surface-container hover:border-amber-gold/40">
+<div>
+<div class="w-14 h-14 rounded-xl bg-surface-container-low flex items-center justify-center text-amber-gold group-hover:bg-amber-gold group-hover:text-primary transition-colors mb-space-md shadow-inner">
+<span class="material-symbols-outlined text-[32px]">local_shipping</span>
+</div>
+<span class="inline-block px-2.5 py-0.5 rounded bg-primary text-on-primary font-code-tech text-code-tech uppercase mb-space-xs font-semibold">Logistics Fleet</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-space-xs">Pengiriman Cepat &amp; Siap</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Armada truk derek dan dump truck mandiri menjamin pengiriman tepat jadwal langsung ke lokasi proyek Anda.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center text-amber-gold font-label-sm text-label-sm font-semibold gap-1 group-hover:translate-x-1 transition-transform">
+<span>Tracking Pengiriman Riil</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: KATALOG PRODUK -->
+<section class="w-full py-space-4xl bg-surface-container-low/60 border-t border-surface-container" id="katalog-produk">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-2xl gap-space-md">
+<div>
+<span class="font-code-tech text-code-tech uppercase tracking-widest text-amber-gold font-bold">Ready Stock Pabrik</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight mt-1">Koleksi Tipe Paving Block Unggulan</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Spesifikasi komprehensif untuk estimasi rancang bangun presisi.</p>
+</div>
+<!-- Filter Tabs -->
+<div class="inline-flex bg-surface-container p-1 rounded-xl shadow-inner self-start md:self-auto border border-surface-container-high" id="filter-container">
+<button class="filter-btn active px-space-md py-1.5 rounded-lg font-label-sm text-label-sm font-semibold bg-surface-container-lowest text-primary shadow-sm transition-all" data-filter="all" type="button">Semua</button>
+<button class="filter-btn px-space-md py-1.5 rounded-lg font-label-sm text-label-sm font-semibold text-on-surface-variant hover:text-primary transition-all" data-filter="heavy" type="button">Heavy Duty</button>
+<button class="filter-btn px-space-md py-1.5 rounded-lg font-label-sm text-label-sm font-semibold text-on-surface-variant hover:text-primary transition-all" data-filter="residential" type="button">Residensial</button>
+<button class="filter-btn px-space-md py-1.5 rounded-lg font-label-sm text-label-sm font-semibold text-on-surface-variant hover:text-primary transition-all" data-filter="decorative" type="button">Dekoratif</button>
+</div>
+</div>
+<!-- Product Grid (6 Cards) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-xl">
+<!-- Card 1: Paving Bata -->
+<div class="product-card group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col border border-surface-container" data-category="residential heavy">
+<div class="relative h-64 bg-surface-container overflow-hidden">
+<img alt="Paving Bata True Rectangular Brick Mutu K-400" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1XIBrNbYm5Iim0FLm-9Pm-EKsuFumok0GUoGisTg4A-LqlGQRhXVJnhIvsyEVvdN4Q5ZX8PwSuQIFBSOJUd3oiOZ_9VNCs_-ZC1e47h4qQy528K2-L8K-QQq0hdRDfmFQ9xYavoRuOkFTLBXY4MuKF8PrPllU_0AUKwEtdURJDdcfJgAbQM0-mRh_Yuvx2Kvm6AD98FcbEVtcYsJws1-igDxJKnxhZzmig5MLpTrXo_V51V3mbeQAdoZq8"/>
+<div class="absolute top-3 left-3 bg-primary text-on-primary font-code-tech text-code-tech px-2.5 py-1 rounded-md font-bold">K-300 / K-400</div>
+<div class="absolute top-3 right-3 bg-[#DCFCE7] text-[#16A34A] font-code-tech text-code-tech px-2.5 py-1 rounded-md font-semibold">Tersedia</div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-1">Tipe Bata (True Rectangular)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Model paving klasik terpopuler dengan fleksibilitas pola pemasangan anyam tikar, tulang ikan, atau susun bata sejajar.</p>
+<div class="grid grid-cols-2 gap-space-xs bg-surface-container-low p-space-sm rounded-xl mb-space-md font-code-tech text-code-tech">
+<div><span class="text-on-surface-variant block">Dimensi:</span> <strong class="text-primary">10 x 20 cm</strong></div>
+<div><span class="text-on-surface-variant block">Ketebalan:</span> <strong class="text-primary">6 cm &amp; 8 cm</strong></div>
+<div><span class="text-on-surface-variant block">Kebutuhan / m²:</span> <strong class="text-primary">44 Pcs / m²</strong></div>
+<div><span class="text-on-surface-variant block">Warna:</span> <strong class="text-primary">Abu, Merah, Hitam</strong></div>
+</div>
+</div>
+<a class="w-full inline-flex items-center justify-center gap-space-xs bg-[#25D366] hover:bg-[#1faa52] text-on-primary py-3 rounded-xl font-label-md text-label-md font-bold shadow-sm hover:shadow transition-all" href="https://wa.me/628118920443?text=Halo,%20saya%20tertarik%20dengan%20Paving%20Tipe%20Bata%20Conblock%20Prima" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span>Pesan Sekarang</span>
+</a>
+</div>
+</div>
+<!-- Card 2: Segi Enam (Hexagon) -->
+<div class="product-card group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col border border-surface-container" data-category="residential decorative">
+<div class="relative h-64 bg-surface-container overflow-hidden">
+<img alt="Paving Segi Enam Hexagon Terracotta dan Basalt" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1UFd4iAfJFQA-5-LdtcWyeDIG0JIE1dX11Qe6ZjVVPTfP7wsC0wFoKeK4to3G86VrQfo2WDZ_RF0pn2qH2WsoERk0ItDQWhGIewm5uJULPMO_5p8zmuu2iDNAEBAG8lgvoAj0QoeG1pNeJKm79pclOj4xJ93Z_W7Jym3ArEWnVLNg6YdAmNHYL_KvKXESXhNwtBcBaSyNBKdHjywBCuqX9ZyaUhHkUj1KksSW70loD4BM4CKmzCcqXv8J-z"/>
+<div class="absolute top-3 left-3 bg-primary text-on-primary font-code-tech text-code-tech px-2.5 py-1 rounded-md font-bold">K-300 / K-350</div>
+<div class="absolute top-3 right-3 bg-[#DCFCE7] text-[#16A34A] font-code-tech text-code-tech px-2.5 py-1 rounded-md font-semibold">Tersedia</div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-1">Tipe Segi Enam (Hexagon)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Desain pola sarang lebah geometris kokoh memberikan nuansa arsitektural modern untuk area pedestrian, taman, dan pelataran hotel.</p>
+<div class="grid grid-cols-2 gap-space-xs bg-surface-container-low p-space-sm rounded-xl mb-space-md font-code-tech text-code-tech">
+<div><span class="text-on-surface-variant block">Dimensi:</span> <strong class="text-primary">Diameter 20 cm</strong></div>
+<div><span class="text-on-surface-variant block">Ketebalan:</span> <strong class="text-primary">6 cm &amp; 8 cm</strong></div>
+<div><span class="text-on-surface-variant block">Kebutuhan / m²:</span> <strong class="text-primary">27 Pcs / m²</strong></div>
+<div><span class="text-on-surface-variant block">Warna:</span> <strong class="text-primary">Abu, Terracotta, Basalt</strong></div>
+</div>
+</div>
+<a class="w-full inline-flex items-center justify-center gap-space-xs bg-[#25D366] hover:bg-[#1faa52] text-on-primary py-3 rounded-xl font-label-md text-label-md font-bold shadow-sm hover:shadow transition-all" href="https://wa.me/628118920443?text=Halo,%20saya%20tertarik%20dengan%20Paving%20Tipe%20Hexagon%20Conblock%20Prima" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span>Pesan Sekarang</span>
+</a>
+</div>
+</div>
+<!-- Card 3: Trihex -->
+<div class="product-card group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col border border-surface-container" data-category="heavy">
+<div class="relative h-64 bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close up photography of Trihex interlocking heavy duty concrete pavers neatly stacked in an industrial factory warehouse setting, natural concrete texture, studio lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBa7gbIHLJhE6fEkEDjd4P119Q2dSSmdXDLw5kkFESPL7mIse6v4S14xRd8gUbS4ahkB-F6rrIV3Oa9Sa0xbUfIN-TLUvolQdFT8O3HwSBOatGekLRZequHRA8ZqMl0qZ8W7wChZ74fjzXmedzIkHGM_WVQZpsn-U3kjovMFs41CTpkLky2TBcfoZlmFL9zIcgfURhTEw0fdBoUyqoc0U40mWssLcseYPLzRyi7ss36ptNKLh4898hK-A"/>
+<div class="absolute top-3 left-3 bg-primary text-on-primary font-code-tech text-code-tech px-2.5 py-1 rounded-md font-bold">K-400 / K-500</div>
+<div class="absolute top-3 right-3 bg-[#DCFCE7] text-[#16A34A] font-code-tech text-code-tech px-2.5 py-1 rounded-md font-semibold">Tersedia</div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-1">Tipe Trihex Interlocking</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Sistem interlocking kuncian 3 arah anti-geser yang didesain khusus untuk menahan torsi belokan ban kendaraan muatan berat.</p>
+<div class="grid grid-cols-2 gap-space-xs bg-surface-container-low p-space-sm rounded-xl mb-space-md font-code-tech text-code-tech">
+<div><span class="text-on-surface-variant block">Dimensi:</span> <strong class="text-primary">19.7 x 9.6 cm</strong></div>
+<div><span class="text-on-surface-variant block">Ketebalan:</span> <strong class="text-primary">8 cm &amp; 10 cm</strong></div>
+<div><span class="text-on-surface-variant block">Kebutuhan / m²:</span> <strong class="text-primary">39 Pcs / m²</strong></div>
+<div><span class="text-on-surface-variant block">Aplikasi:</span> <strong class="text-primary">Jalan Industri, Gudang</strong></div>
+</div>
+</div>
+<a class="w-full inline-flex items-center justify-center gap-space-xs bg-[#25D366] hover:bg-[#1faa52] text-on-primary py-3 rounded-xl font-label-md text-label-md font-bold shadow-sm hover:shadow transition-all" href="https://wa.me/628118920443?text=Halo,%20saya%20tertarik%20dengan%20Paving%20Tipe%20Trihex%20Conblock%20Prima" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span>Pesan Sekarang</span>
+</a>
+</div>
+</div>
+<!-- Card 4: Tipe Cacing (Wave) -->
+<div class="product-card group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col border border-surface-container" data-category="heavy">
+<div class="relative h-64 bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Macro photography of Wave Zigzag interlocking paving blocks in crisp slate gray color, displaying fine aggregate composition and interlocking grooves" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIksRDmqG54Dy12i6WT3aI72_TNwTu8_6lzDcat29KetXC-LEIgQfAqPF0cn2SRjsZ9jDe-dfHNOEbDYgs8bRWzfQ--OhN6IQVfibW44GXQSSCRn3iDsJfU97LpACc0gsf17B9NdVRtY_QfooahaSX4A3O05wN7u_v1Ec9RzTqfBoYCzEtDp7SypT8rtpKGuxZRJHYj4j5rwZah5kI8T2HUpIK11LDGEwdt5nVWj4JbbGnQtCAP_buGg"/>
+<div class="absolute top-3 left-3 bg-primary text-on-primary font-code-tech text-code-tech px-2.5 py-1 rounded-md font-bold">K-400 / K-450</div>
+<div class="absolute top-3 right-3 bg-[#DCFCE7] text-[#16A34A] font-code-tech text-code-tech px-2.5 py-1 rounded-md font-semibold">Tersedia</div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-1">Tipe Cacing (Wave Zigzag)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Kuncian dinamis maksimal pada sisi bergelombang, mencegah pergeseran horisontal akibat akselerasi kontainer dan truk forklift.</p>
+<div class="grid grid-cols-2 gap-space-xs bg-surface-container-low p-space-sm rounded-xl mb-space-md font-code-tech text-code-tech">
+<div><span class="text-on-surface-variant block">Dimensi:</span> <strong class="text-primary">11.5 x 22.5 cm</strong></div>
+<div><span class="text-on-surface-variant block">Ketebalan:</span> <strong class="text-primary">6 cm &amp; 8 cm</strong></div>
+<div><span class="text-on-surface-variant block">Kebutuhan / m²:</span> <strong class="text-primary">39 Pcs / m²</strong></div>
+<div><span class="text-on-surface-variant block">Aplikasi:</span> <strong class="text-primary">Pelabuhan, SPBU, Terminal</strong></div>
+</div>
+</div>
+<a class="w-full inline-flex items-center justify-center gap-space-xs bg-[#25D366] hover:bg-[#1faa52] text-on-primary py-3 rounded-xl font-label-md text-label-md font-bold shadow-sm hover:shadow transition-all" href="https://wa.me/628118920443?text=Halo,%20saya%20tertarik%20dengan%20Paving%20Tipe%20Cacing%20Conblock%20Prima" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span>Pesan Sekarang</span>
+</a>
+</div>
+</div>
+<!-- Card 5: Ubin / Square Stone -->
+<div class="product-card group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col border border-surface-container" data-category="residential decorative">
+<div class="relative h-64 bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Photorealistic architectural square paving tiles installed on an outdoor luxury shopping gallery promenade, warm beige tone, clean geometric joints" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5388r1v3n3pqKUIPJEoe32ymQpxXrMOfHPTQUic4PFutV8f2hZj4WMD5HZ8M2l4fVOgb9dPlBVyQV0twrEFyK9dZCln1v_GDyGWL-h8lzmwXiykzBj6qIkQc_EO-HT6KkZHNh25rcxuYjPzWqVLJURaSfNvv_DGkhzuPd8jK234347rbCpDphb1kA_Ne-VAThbZ8TJGAgPpKgvoc87EovDOEHAXWZ_-j9nPl1s1Ptyqn04gCunNpFcQ"/>
+<div class="absolute top-3 left-3 bg-primary text-on-primary font-code-tech text-code-tech px-2.5 py-1 rounded-md font-bold">K-300</div>
+<div class="absolute top-3 right-3 bg-[#DCFCE7] text-[#16A34A] font-code-tech text-code-tech px-2.5 py-1 rounded-md font-semibold">Tersedia</div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-1">Tipe Ubin (Square Stone)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Format ubin kubus berukuran lebar yang menghadirkan impresi mewah, clean, dan minimalis untuk trotoar dan plaza modern.</p>
+<div class="grid grid-cols-2 gap-space-xs bg-surface-container-low p-space-sm rounded-xl mb-space-md font-code-tech text-code-tech">
+<div><span class="text-on-surface-variant block">Dimensi:</span> <strong class="text-primary">20x20 &amp; 30x30 cm</strong></div>
+<div><span class="text-on-surface-variant block">Ketebalan:</span> <strong class="text-primary">6 cm &amp; 8 cm</strong></div>
+<div><span class="text-on-surface-variant block">Kebutuhan / m²:</span> <strong class="text-primary">25 / 11 Pcs/m²</strong></div>
+<div><span class="text-on-surface-variant block">Warna:</span> <strong class="text-primary">Natural, Hitam, Kuning</strong></div>
+</div>
+</div>
+<a class="w-full inline-flex items-center justify-center gap-space-xs bg-[#25D366] hover:bg-[#1faa52] text-on-primary py-3 rounded-xl font-label-md text-label-md font-bold shadow-sm hover:shadow transition-all" href="https://wa.me/628118920443?text=Halo,%20saya%20tertarik%20dengan%20Paving%20Tipe%20Ubin%20Conblock%20Prima" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span>Pesan Sekarang</span>
+</a>
+</div>
+</div>
+<!-- Card 6: Grass Block -->
+<div class="product-card group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col border border-surface-container" data-category="residential decorative">
+<div class="relative h-64 bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="High quality overhead view of concrete grass block pavers with lush green turf grass growing inside the holes, installed in an eco friendly office parking lot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-4WEWyUtDLJv_qqVmjW6PhB_6qApxsCua86-QNdg5g_gEpLDtq_9dNOVePO0NwHF1E4fdsj6S1RIa9MU_95lE9uwrED_MVZwBXh8mylk6VL_JvVE1WpIVx5tr25AZGqemKHUGAeSicdmar4A4c8nhMq3a1gkyKp4hwLDIzmKrFnP0MfQ80j3iOU9b_sQqPU2Te-yy-_2fTO6NL7rd2W5Fl_0b36qRWRKT1O-BlBokstAYO9CZ6l3XCQ"/>
+<div class="absolute top-3 left-3 bg-primary text-on-primary font-code-tech text-code-tech px-2.5 py-1 rounded-md font-bold">K-300</div>
+<div class="absolute top-3 right-3 bg-[#DCFCE7] text-[#16A34A] font-code-tech text-code-tech px-2.5 py-1 rounded-md font-semibold">Tersedia</div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-1">Grass Block (Paving Rumput)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Solusi paving ramah lingkungan dengan rongga resapan air hujan optimal, mencegah genangan sekaligus menjaga penghijauan area.</p>
+<div class="grid grid-cols-2 gap-space-xs bg-surface-container-low p-space-sm rounded-xl mb-space-md font-code-tech text-code-tech">
+<div><span class="text-on-surface-variant block">Dimensi:</span> <strong class="text-primary">40 x 40 cm</strong></div>
+<div><span class="text-on-surface-variant block">Varian:</span> <strong class="text-primary">Lubang 5 &amp; Lubang 8</strong></div>
+<div><span class="text-on-surface-variant block">Ketebalan:</span> <strong class="text-primary">6 cm &amp; 8 cm</strong></div>
+<div><span class="text-on-surface-variant block">Kebutuhan / m²:</span> <strong class="text-primary">6.25 Pcs / m²</strong></div>
+</div>
+</div>
+<a class="w-full inline-flex items-center justify-center gap-space-xs bg-[#25D366] hover:bg-[#1faa52] text-on-primary py-3 rounded-xl font-label-md text-label-md font-bold shadow-sm hover:shadow transition-all" href="https://wa.me/628118920443?text=Halo,%20saya%20tertarik%20dengan%20Grass%20Block%20Conblock%20Prima" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span>Pesan Sekarang</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: GALERI PROYEK -->
+<section class="w-full py-space-4xl bg-surface">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-2xl gap-space-md">
+<div>
+<span class="font-code-tech text-code-tech uppercase tracking-widest text-amber-gold font-bold">Track Record</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight mt-1">Portofolio Proyek Terpercaya</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Dari driveway hunian mewah hingga jalan logistik pergudangan nasional.</p>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm bg-surface-container-lowest px-space-md py-2 rounded-full border border-surface-container shadow-sm">
+<span class="material-symbols-outlined text-amber-gold">domain_verification</span>
+<span class="font-semibold text-primary">500+ Titik Selesai Tanpa Retur</span>
+</div>
+</div>
+<!-- Bento Grid Gallery -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md">
+<div class="md:col-span-7 relative h-80 lg:h-96 rounded-2xl overflow-hidden group shadow-md border border-surface-container">
+<img alt="Driveway Mewah Hunian Modern dengan Conblock Kombinasi" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida/AEtjO1W6A4v3nP4c_z5gT3n4nn1nqEcF3p16aU0LnJ-ii5_18Qmel_zDRwL-YTVXYB-yYhdNwbuwmUDoIPbUNk8xf6J8ZxS5zhWwKuVOLeAf920hfz-SdPoEbsMSB2k9GVMlR0xwDofL66iINtvMIOWSmjilCm-kWfcS3y-QX6DYmqChyR7kahOBmM5jVaTp9qv_6QhT018rV_CO-z9JGWbczHPzOUOoZ9KWe411H4bgP5we9Ehye6f_0g1AJMU"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/40 to-transparent flex flex-col justify-end p-space-lg">
+<span class="font-code-tech text-code-tech text-amber-gold uppercase tracking-wider font-bold">Perumahan Elit Serpong</span>
+<h3 class="font-headline-md text-headline-md text-on-primary font-bold">Driveway &amp; Carport Cluster Modern</h3>
+<p class="font-body-sm text-body-sm text-surface-container-highest">Kombinasi Paving Bata Terracotta dan Hexagon Basalt K-350.</p>
+</div>
+</div>
+<div class="md:col-span-5 relative h-80 lg:h-96 rounded-2xl overflow-hidden group shadow-md border border-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Industrial logistics park container yard paved with heavy duty concrete interlocking pavers, container trucks and forklifts operating smoothly, bright sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFSDlm8P5klabxwRQH7EF-4qB3w9Tj5mpfOlR_rbWqRmvP5pgRHxmEoy1MelrcfDRTjXGrjgWtLmcgkuXedymm-GqBBN4B4ByxTPNP_EW5QNmHdK6qMdMdqj-cW5CPTsZ4ZMFBRYe7YG5w2aHEltWb-1dFCFCv1rD212zFnMmibbKYUY_7tenfeE3QU9Fl0OwH4p2tuD5c8KtdfsAr5Xm4grQ-HqluiamWXytC10FfY8r4FlnwoRQHsw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/40 to-transparent flex flex-col justify-end p-space-lg">
+<span class="font-code-tech text-code-tech text-amber-gold uppercase tracking-wider font-bold">Kawasan Industri Cikarang</span>
+<h3 class="font-headline-md text-headline-md text-on-primary font-bold">Jalur Logistik Kontainer 40 Ton</h3>
+<p class="font-body-sm text-body-sm text-surface-container-highest">Paving Trihex 10 cm Mutu Beton K-500 Heavy Load.</p>
+</div>
+</div>
+<div class="md:col-span-4 relative h-72 rounded-2xl overflow-hidden group shadow-md border border-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Modern wide urban pedestrian sidewalk paved with square concrete paving slabs and guide tactile tiles, clean municipal city street with trees, afternoon light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpi5Gysi1CJKs5Ao7NgqH_nMMPcnbnWbF5z87t37P_kNwB8-4k6CUW_yoaKV_MU5dBFKsqaE-U_d071cjoCdeJt36Be5ZRvKUpdzusjfQmD5ucGXH-MTkQj8U82F0isXWrQ74mZxCFk-elRtIzhNCWAIGO0b9kx9K-qfvsg6Heyx94kbk3tZNo4Wl9G5Tosq3aBZFzmjKRqkUxYYa7VQwnDU4YeGiP8IHqwUIBekaukN7esVXgswAGyw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/40 to-transparent flex flex-col justify-end p-space-md">
+<span class="font-code-tech text-code-tech text-amber-gold uppercase font-bold">Penataan Kota</span>
+<h3 class="font-headline-sm text-headline-sm text-on-primary font-bold">Trotoar &amp; Jalur Pedestrian</h3>
+<p class="font-body-sm text-body-sm text-surface-container-highest">Tipe Ubin 30x30 cm Anti-Slip K-300.</p>
+</div>
+</div>
+<div class="md:col-span-4 relative h-72 rounded-2xl overflow-hidden group shadow-md border border-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Tropical villa resort parking area with lush grassblock paving pavers and flowering tropical plants in Bali, sunny day, architectural photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsVwAE1rDXut11IiSI0lnC6bpEfhjtoSoY8kUMqpeNoDHZhf-S4XfDLs3Uop_4YTVNlkyl5fD39yXPAhcvc8Iy5iiJHxZi6UefoYadoDWL0rzWzgQOPloENBIGFojlLwu-S0Ap1-qS5sJZqNVZ_110EV5FVaN8U7ALKVzeCC745A0hxft_OKT7L4xUm02dSdGRB4srQx3a_NF8WhHxPiCkyuL5CylX_w2ULi6C74__Wlcy0YQT_193jA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/40 to-transparent flex flex-col justify-end p-space-md">
+<span class="font-code-tech text-code-tech text-amber-gold uppercase font-bold">Resort &amp; Hospitality</span>
+<h3 class="font-headline-sm text-headline-sm text-on-primary font-bold">Area Parkir Resapan Air Hijau</h3>
+<p class="font-body-sm text-body-sm text-surface-container-highest">Grass Block 8 Lubang tebal 8 cm terintegrasi drainase.</p>
+</div>
+</div>
+<div class="md:col-span-4 relative h-72 rounded-2xl overflow-hidden group shadow-md border border-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Expansive commercial retail center plaza with decorative interlocking concrete paving pattern in multiple earthy tones, clean architectural lines" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcFEY3OvUjM6CYh9Y2iCUFJQSTZeCP4RP-d5-7YF4-v7QhXM-qrEhV7q52OVqr0Zylt-UaUnRMubQPkj_emd_89h-Xe5cLy-GEIPZNa9Ovk7eGZP9Y5xrrdGG4XVs7Khi8G9M9sBoen7_XTjV2KyhXKtjXnU6d_RpgUAg7bp33kn-cYBruIIccKkj-NVz9zq4jYgmb_xR4dD0xZiD-irQilSOjZBoeyjfDBDEokkJVcrZRlQ-bG_dVvA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/40 to-transparent flex flex-col justify-end p-space-md">
+<span class="font-code-tech text-code-tech text-amber-gold uppercase font-bold">Komersial Plaza</span>
+<h3 class="font-headline-sm text-headline-sm text-on-primary font-bold">Plaza Lifestyle Mall</h3>
+<p class="font-body-sm text-body-sm text-surface-container-highest">Pola Kombinasi Hexagon &amp; Bata Warna K-350.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: TESTIMONI -->
+<section class="w-full py-space-4xl bg-surface-container-low/40 border-t border-surface-container">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
+<div class="flex flex-col items-center text-center mb-space-3xl">
+<span class="font-code-tech text-code-tech uppercase tracking-widest text-amber-gold font-bold mb-space-2xs">Reputasi Lapangan</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight">Kepercayaan Pelanggan &amp; Mitra Kontraktor</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl mt-space-xs">Ulasan nyata dari para profesional konstruksi, pengembang properti, dan pemilik hunian.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Testi 1 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-2xl shadow-sm flex flex-col justify-between border border-surface-container">
+<div>
+<div class="flex items-center gap-1 text-amber-gold mb-space-md">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic leading-relaxed mb-space-lg">
+              "Pengiriman 12.000 m² paving bata ke site kami di Cikarang tepat waktu sesuai milestone proyek. Hasil uji slump dan kuat tekan K-400 konsisten di seluruh batch pengiriman pabrik."
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-md border-t border-surface-container">
+<div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-on-primary font-headline-sm font-bold">
+              HG
+            </div>
+<div>
+<p class="font-label-md text-label-md text-primary font-bold">Ir. Hendra Gunawan</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Project Manager PT Adhi Karya Citra</p>
+</div>
+</div>
+</div>
+<!-- Testi 2 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-2xl shadow-sm flex flex-col justify-between border border-surface-container">
+<div>
+<div class="flex items-center gap-1 text-amber-gold mb-space-md">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic leading-relaxed mb-space-lg">
+              "Presisi sudut dan ketebalannya sangat rapi, tukang kami tidak perlu banyak motong atau pasang ulang. Nilai plus untuk jalan utama perumahan karena tidak ada genangan saat hujan deras."
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-md border-t border-surface-container">
+<div class="w-12 h-12 rounded-full bg-amber-gold flex items-center justify-center text-primary font-headline-sm font-bold">
+              BS
+            </div>
+<div>
+<p class="font-label-md text-label-md text-primary font-bold">Budi Santoso</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Developer Cluster Green Serpong</p>
+</div>
+</div>
+</div>
+<!-- Testi 3 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-2xl shadow-sm flex flex-col justify-between border border-surface-container">
+<div>
+<div class="flex items-center gap-1 text-amber-gold mb-space-md">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic leading-relaxed mb-space-lg">
+              "Warna terracotta sangat konsisten dan estetika driveway langsung naik kelas. Pelayanan via WhatsApp sangat solutif dalam memberi rekomendasi pola susun sarang lebah."
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-md border-t border-surface-container">
+<div class="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center text-on-primary font-headline-sm font-bold">
+              DW
+            </div>
+<div>
+<p class="font-label-md text-label-md text-primary font-bold">Diana Wijaya</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Owner Private Villa &amp; Boutique Resort</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: CARA PEMESANAN -->
+<section class="w-full py-space-4xl bg-surface">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
+<div class="flex flex-col items-center text-center mb-space-3xl">
+<span class="font-code-tech text-code-tech uppercase tracking-widest text-amber-gold font-bold mb-space-2xs">Prosedur Praktis</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight">3 Langkah Mudah Pemesanan</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl mt-space-xs">Alur pemesanan transparan tanpa birokrasi rumit, langsung terhubung dengan tim teknis pabrik.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-xl relative">
+<!-- Step 1 -->
+<div class="relative bg-surface-container-lowest p-space-xl rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-surface-container">
+<div class="w-12 h-12 rounded-xl bg-primary text-on-primary flex items-center justify-center font-display text-headline-sm font-black mb-space-md">
+            1
+          </div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-space-xs">Pilih Tipe &amp; Volume</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Tentukan model paving (Bata, Hexagon, Trihex), ketebalan (6 cm atau 8 cm), pilihan warna, dan estimasi luas area (m²).
+          </p>
+<div class="mt-space-md inline-flex items-center gap-1 font-code-tech text-code-tech text-amber-gold font-bold">
+<span class="material-symbols-outlined text-[18px]">straighten</span>
+<span>Bantuan hitung luas gratis</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="relative bg-surface-container-lowest p-space-xl rounded-2xl shadow-sm hover:shadow-md transition-shadow border-2 border-amber-gold/40">
+<div class="w-12 h-12 rounded-xl bg-amber-gold text-primary flex items-center justify-center font-display text-headline-sm font-black mb-space-md shadow-sm">
+            2
+          </div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-space-xs">Hubungi via WhatsApp</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Konsultasikan kebutuhan proyek Anda secara langsung dengan customer support teknis kami untuk mendapatkan penawaran resmi dan sampel material cuma-cuma.
+          </p>
+<div class="mt-space-md inline-flex items-center gap-1 font-code-tech text-code-tech text-[#25D366] font-bold">
+<span class="material-symbols-outlined text-[18px]">forum</span>
+<span>Respon Cepat &lt; 15 Menit</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="relative bg-surface-container-lowest p-space-xl rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-surface-container">
+<div class="w-12 h-12 rounded-xl bg-primary text-on-primary flex items-center justify-center font-display text-headline-sm font-black mb-space-md">
+            3
+          </div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-space-xs">Konfirmasi &amp; Kirim</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Setelah kesepakatan PO, armada truk derek kami bergerak mengantar produk langsung ke lokasi kerja Anda sesuai jadwal yang disepakati.
+          </p>
+<div class="mt-space-md inline-flex items-center gap-1 font-code-tech text-code-tech text-amber-gold font-bold">
+<span class="material-symbols-outlined text-[18px]">local_shipping</span>
+<span>Bisa Langsung Bongkar Crane</span>
+</div>
+</div>
+</div>
+<!-- Bottom Step CTA Callout -->
+<div class="mt-space-3xl bg-[#08274A] text-on-primary rounded-2xl p-space-xl flex flex-col md:flex-row items-center justify-between gap-space-lg shadow-xl border border-primary-container">
+<div class="flex flex-col">
+<span class="font-code-tech text-code-tech text-amber-gold font-bold uppercase tracking-wider">Layanan Konsultasi Bebas Biaya</span>
+<h3 class="font-headline-md text-headline-md font-bold mt-1 text-on-primary">Butuh Estimasi Biaya &amp; Sampel Fisik?</h3>
+<p class="font-body-sm text-body-sm text-on-primary-container mt-1">Kirimkan ukuran lahan atau denah DWG/PDF Anda, kami kalkulasikan rincian biayanya hari ini.</p>
+</div>
+<a class="inline-flex items-center gap-space-xs bg-[#25D366] hover:bg-[#1faa52] text-on-primary px-space-xl py-3.5 rounded-xl font-label-md text-label-md font-bold shadow-lg transition-transform transform hover:scale-105 whitespace-nowrap" href="https://wa.me/628118920443?text=Halo%20Conblock%20Prima,%20saya%20ingin%20minta%20sampel%20dan%20penawaran%20harga%20resmi" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[22px]">chat</span>
+<span>Mulai Pesan Sekarang via WhatsApp</span>
+</a>
+</div>
+</div>
+</section>
+<!-- INTERACTIVE SPECIFICATION CALCULATOR SECTION -->
+<section class="w-full py-space-3xl bg-surface-container-low/50 border-t border-surface-container">
+<div class="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
+<div class="bg-surface-container-lowest rounded-2xl p-space-xl lg:p-space-2xl shadow-md border border-surface-container">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<div class="lg:col-span-5">
+<span class="font-code-tech text-code-tech text-amber-gold font-bold uppercase tracking-wider">Kalkulator Estimasi Instan</span>
+<h3 class="font-headline-lg text-headline-lg text-primary font-bold mt-1 mb-space-sm">Hitung Kebutuhan Paving Anda</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md leading-relaxed">
+              Masukkan estimasi luas area yang akan dipasang. Kami akan langsung mengkalkulasikan jumlah estimasi pieces dan rekomendasi armada logistik.
+            </p>
+<div class="space-y-space-xs font-code-tech text-code-tech text-on-surface-variant">
+<p class="flex items-center gap-2"><span class="material-symbols-outlined text-amber-gold text-[18px]">check</span> Termasuk rekomendasi buffer susun 3% - 5%</p>
+<p class="flex items-center gap-2"><span class="material-symbols-outlined text-amber-gold text-[18px]">check</span> Langsung terhubung ke penawaran resmi pabrik</p>
+</div>
+</div>
+<div class="lg:col-span-7 bg-surface-container-low p-space-lg rounded-xl border border-surface-container">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md mb-space-md">
+<div>
+<label class="block font-label-sm text-label-sm text-primary font-semibold mb-1" for="paving-type">Pilih Model Paving</label>
+<select class="w-full bg-surface-container-lowest text-on-surface font-body-sm text-body-sm p-2.5 rounded-lg border border-surface-container focus:outline-none focus:ring-2 focus:ring-amber-gold" id="paving-type">
+<option data-name="Paving Bata (10x20 cm)" value="44">Paving Bata (44 pcs/m²)</option>
+<option data-name="Paving Hexagon (Dia. 20 cm)" value="27">Paving Hexagon (27 pcs/m²)</option>
+<option data-name="Paving Trihex / Cacing" value="39">Paving Trihex / Cacing (39 pcs/m²)</option>
+<option data-name="Grass Block (40x40 cm)" value="6.25">Grass Block (6.25 pcs/m²)</option>
+</select>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm text-primary font-semibold mb-1" for="area-input">Luas Area (m²)</label>
+<input class="w-full bg-surface-container-lowest text-on-surface font-body-sm text-body-sm p-2.5 rounded-lg border border-surface-container focus:outline-none focus:ring-2 focus:ring-amber-gold" id="area-input" min="1" placeholder="Contoh: 150" type="number" value="100"/>
+</div>
+</div>
+<!-- Calculated Output -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl grid grid-cols-2 sm:grid-cols-3 gap-space-sm text-center mb-space-md border border-surface-container">
+<div>
+<span class="font-code-tech text-code-tech text-on-surface-variant block">Total Volume</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold" id="output-pcs">4.400</span>
+<span class="font-code-tech text-code-tech text-outline block">Pieces</span>
+</div>
+<div>
+<span class="font-code-tech text-code-tech text-on-surface-variant block">Estimasi Truk</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold" id="output-truck">1</span>
+<span class="font-code-tech text-code-tech text-outline block">Colt Diesel (CDD)</span>
+</div>
+<div class="col-span-2 sm:col-span-1">
+<span class="font-code-tech text-code-tech text-on-surface-variant block">Status Pasokan</span>
+<span class="font-headline-sm text-headline-sm text-[#16A34A] font-bold">Ready Plant</span>
+<span class="font-code-tech text-code-tech text-[#16A34A] block">Siap Kirim</span>
+</div>
+</div>
+<button class="w-full inline-flex items-center justify-center gap-space-xs bg-[#25D366] hover:bg-[#1faa52] text-on-primary py-3 rounded-xl font-label-md text-label-md font-bold transition-colors shadow-md" id="send-calc-wa" type="button">
+<span class="material-symbols-outlined text-[20px]">send</span>
+<span>Dapatkan Penawaran WhatsApp untuk Kalkulasi Ini</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive JavaScript -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Catalog Filter Tabs
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const productCards = document.querySelectorAll('.product-card');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach(b => {
+            b.classList.remove('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+            b.classList.add('text-on-surface-variant');
+          });
+
+          btn.classList.add('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+          btn.classList.remove('text-on-surface-variant');
+
+          const filter = btn.getAttribute('data-filter');
+
+          productCards.forEach(card => {
+            const categories = card.getAttribute('data-category') || '';
+            if (filter === 'all' || categories.includes(filter)) {
+              card.style.display = 'flex';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+
+      // 2. Concrete Paving Calculator Logic
+      const pavingSelect = document.getElementById('paving-type');
+      const areaInput = document.getElementById('area-input');
+      const outputPcs = document.getElementById('output-pcs');
+      const outputTruck = document.getElementById('output-truck');
+      const sendCalcBtn = document.getElementById('send-calc-wa');
+
+      function updateCalculator() {
+        const pcsPerM2 = parseFloat(pavingSelect.value) || 44;
+        const area = parseFloat(areaInput.value) || 0;
+        const totalPcs = Math.ceil(area * pcsPerM2);
+        
+        outputPcs.textContent = totalPcs.toLocaleString('id-ID');
+
+        // Estimate truckloads: assume average Colt Diesel holds approx 25-35 m² depending on thickness
+        const truckCapacityM2 = 30;
+        const trucks = Math.max(1, Math.ceil(area / truckCapacityM2));
+        outputTruck.textContent = area > 0 ? trucks : 0;
+      }
+
+      pavingSelect.addEventListener('change', updateCalculator);
+      areaInput.addEventListener('input', updateCalculator);
+
+      sendCalcBtn.addEventListener('click', () => {
+        const selectedOption = pavingSelect.options[pavingSelect.selectedIndex];
+        const pavingName = selectedOption.getAttribute('data-name');
+        const areaVal = areaInput.value || '100';
+        const pcsVal = outputPcs.textContent;
+
+        const text = encodeURIComponent(`Halo Conblock Prima, saya telah menghitung kebutuhan di website:\n- Produk: ${pavingName}\n- Luas: ${areaVal} m²\n- Estimasi Kebutuhan: ${pcsVal} pcs.\n\nMohon info harga diskon pabrik dan ongkos kirim ke lokasi saya.`);
+        window.open(`https://wa.me/628118920443?text=${text}`, '_blank');
+      });
+    });
+  </script>
+</div></main><aside aria-label="Customer Service WhatsApp" class="fixed bottom-space-lg right-space-lg z-50 flex items-center gap-space-xs"><span class="hidden md:inline-block bg-[#08274A] text-on-primary font-label-sm text-label-sm px-space-sm py-1.5 rounded-lg shadow-lg border border-primary-container">Hubungi Pabrik Kami</span><a class="relative flex items-center justify-center w-14 h-14 bg-[#25D366] hover:bg-[#1faa52] text-on-primary rounded-full shadow-[0_8px_24px_rgba(37,211,102,0.4)] transition-transform transform hover:scale-105" data-path="kontak" href="https://wa.me/628118920443?text=Halo%20Conblock%20Prima,%20saya%20ingin%20konsultasi" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[28px]">support_agent</span><span class="absolute -top-1 -right-1 flex h-4 w-4"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-gold opacity-75"></span><span class="relative inline-flex rounded-full h-4 w-4 bg-amber-gold"></span></span></a></aside><footer class="w-full bg-[#08274A] text-on-primary pt-space-3xl pb-space-2xl border-t border-primary-container"><div class="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter-desktop"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl pb-space-2xl"><div class="lg:col-span-4 space-y-space-md"><div class="flex items-center gap-space-sm"><div class="p-1.5 bg-surface-container-lowest rounded"><img alt="Conblock Prima Logo Footer" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UOfnmOHcYO4GSu4_eGwanl80G12ED1yVVHTjA4pNY555CYEztzHDDoPUU1CzpdEu7HlNp1eYwLEBwqhb0un7Zu475aaJjvx41YReROoWJgjDLUEEP1Nn0DKWdeWsOgKMuPEeg3VSa2_vtxVW-mTs8Y1AxlY2iw6Fx4wJYGJmgaYGhtSCm-CyXLDWHxS3OSIIfesUMhQQYrihh0CDsFrMexg7AEGev1ntSmUI2VQYE2KUU6SDbbV07l0rc6"/></div><span class="font-headline-sm text-headline-sm text-on-primary tracking-tight font-bold">CONBLOCK PRIMA</span></div><p class="font-body-sm text-body-sm text-on-primary-container leading-relaxed">Produsen material paving block mutu tinggi (K-300 s/d K-500), grassblock, kanstin, dan precast industri untuk proyek sipil, komersial, perumahan, dan pelabuhan seluruh Indonesia.</p><div class="flex items-center gap-space-sm text-on-primary-container"><span class="material-symbols-outlined text-[20px] text-amber-gold">verified</span><span class="font-code-tech text-code-tech uppercase tracking-wide">Standar Mutu SNI 03-0691-1996</span></div></div><div class="lg:col-span-3 space-y-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-primary font-bold">Kantor &amp; Showroom</h3><p class="font-body-sm text-body-sm text-on-primary-container leading-relaxed">Kawasan Industri Jababeka Tahap II, Blok C-18, Cikarang, Bekasi, Jawa Barat 17530</p><div class="pt-space-xs space-y-space-2xs font-body-sm text-body-sm text-on-primary-container"><p><strong class="text-on-primary">Telepon Pabrik:</strong> +62 21 8934 1120</p><p><strong class="text-on-primary">WhatsApp Hotline:</strong> +62 811 8920 443</p><p><strong class="text-on-primary">Email:</strong> marketing@conblockprima.co.id</p></div></div><div class="lg:col-span-2 space-y-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-primary font-bold">Jam Operasional</h3><ul class="space-y-space-xs font-body-sm text-body-sm text-on-primary-container"><li><span class="block text-on-primary font-semibold">Senin - Jumat:</span> 08.00 - 17.00 WIB</li><li><span class="block text-on-primary font-semibold">Sabtu:</span> 08.00 - 14.00 WIB</li><li><span class="block text-on-primary font-semibold">Minggu &amp; Hari Libur:</span> Layanan Darurat Proyek On-Call</li></ul></div><div class="lg:col-span-3 space-y-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-primary font-bold">Lokasi Pabrik &amp; Plant</h3><div class="w-full h-32 rounded-lg bg-primary-container flex flex-col items-center justify-center p-space-sm text-center relative overflow-hidden group border border-surface-tint/20"><span class="material-symbols-outlined text-[32px] text-amber-gold mb-1">pin_drop</span><span class="font-label-md text-label-md text-on-primary font-bold">Pabrik Utama Cikarang</span><span class="font-code-tech text-code-tech text-on-primary-container">Buka Rute Pengiriman Logistik</span><a class="absolute inset-0 bg-primary/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity font-label-sm text-label-sm text-amber-gold font-bold" data-path="kontak" href="#">Lihat Panduan Logistik</a></div><div class="flex items-center gap-space-sm pt-space-xs"><a class="w-9 h-9 rounded-md bg-primary-container text-on-primary-container flex items-center justify-center hover:bg-amber-gold hover:text-primary transition-colors" data-path="beranda" href="#"><span class="material-symbols-outlined text-[18px]">public</span></a><a class="w-9 h-9 rounded-md bg-primary-container text-on-primary-container flex items-center justify-center hover:bg-amber-gold hover:text-primary transition-colors" data-path="galeri" href="#"><span class="material-symbols-outlined text-[18px]">photo_library</span></a><a class="w-9 h-9 rounded-md bg-primary-container text-on-primary-container flex items-center justify-center hover:bg-amber-gold hover:text-primary transition-colors" data-path="kontak" href="#"><span class="material-symbols-outlined text-[18px]">mail</span></a></div></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-primary-container font-body-sm text-body-sm border-t border-primary-container"><p>© 2024 PT Conblock Prima Indonesia. Hak Cipta Dilindungi Undang-Undang.</p><div class="flex items-center gap-space-md"><a class="hover:text-amber-gold transition-colors" data-path="produk" href="#">Katalog Teknis</a><a class="hover:text-amber-gold transition-colors" data-path="kontak" href="#">Kebijakan Pengiriman &amp; Garansi Mutu</a></div></div></div></footer></body></html>

@@ -17,16 +17,16 @@ export default function Footer() {
             <div className="flex items-center gap-space-sm">
               <div className="p-1.5 bg-surface-container-lowest rounded">
                 <Image
-                  src="https://lh3.googleusercontent.com/aida/AEtjO1UOfnmOHcYO4GSu4_eGwanl80G12ED1yVVHTjA4pNY555CYEztzHDDoPUU1CzpdEu7HlNp1eYwLEBwqhb0un7Zu475aaJjvx41YReROoWJgjDLUEEP1Nn0DKWdeWsOgKMuPEeg3VSa2_vtxVW-mTs8Y1AxlY2iw6Fx4wJYGJmgaYGhtSCm-CyXLDWHxS3OSIIfesUMhQQYrihh0CDsFrMexg7AEGev1ntSmUI2VQYE2KUU6SDbbV07l0rc6"
+                  src="img/logo.jpeg"
                   alt="Conblock Prima Logo Footer"
                   width={56}
                   height={28}
-                  className="h-7 w-auto object-contain"
+                  className="h-16 w-auto object-contain"
                   unoptimized
                 />
               </div>
               <span className="font-headline-sm text-headline-sm text-on-primary tracking-tight font-bold">
-                CONBLOCK PRIMA
+                ECOVING
               </span>
             </div>
             <p className="font-body-sm text-body-sm text-on-primary-container leading-relaxed">
@@ -49,7 +49,7 @@ export default function Footer() {
           >
             <h3 className="font-headline-sm text-headline-sm text-on-primary font-bold">Kantor & Showroom</h3>
             <p className="font-body-sm text-body-sm text-on-primary-container leading-relaxed">
-              Kawasan Industri Jababeka Tahap II, Blok C-18, Cikarang, Bekasi, Jawa Barat 17530
+              Jl. Siliwangi Jl. Jombor Lor, Mlati Krajan, Sendangadi, Kec. Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55284
             </p>
             <div className="pt-space-xs space-y-space-2xs font-body-sm text-body-sm text-on-primary-container">
               <p>
@@ -85,24 +85,31 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Lokasi Pabrik */}
+          {/* Lokasi Peta */}
           <div
             data-aos="fade-left"
             data-aos-delay="200"
             className="lg:col-span-3 space-y-space-sm"
           >
-            <h3 className="font-headline-sm text-headline-sm text-on-primary font-bold">Lokasi Pabrik & Plant</h3>
-            <div className="w-full h-32 rounded-lg bg-primary-container flex flex-col items-center justify-center p-space-sm text-center relative overflow-hidden group border border-surface-tint/20">
-              <span className="material-symbols-outlined text-[32px] text-amber-gold mb-1">pin_drop</span>
-              <span className="font-label-md text-label-md text-on-primary font-bold">Pabrik Utama Cikarang</span>
-              <span className="font-code-tech text-code-tech text-on-primary-container">
-                Buka Rute Pengiriman Logistik
-              </span>
+            <h3 className="font-headline-sm text-headline-sm text-on-primary font-bold">Peta Lokasi</h3>
+            <div className="w-full h-32 rounded-lg bg-primary-container relative overflow-hidden group border border-surface-tint/20">
+              <iframe
+                src="https://maps.google.com/maps?q=Jl.+Siliwangi+Jl.+Jombor+Lor,+Mlati+Krajan,+Sendangadi,+Kec.+Mlati,+Kabupaten+Sleman,+Daerah+Istimewa+Yogyakarta+55284&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full h-full object-cover"
+              ></iframe>
               <a
-                href="#"
-                className="absolute inset-0 bg-primary/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity font-label-sm text-label-sm text-amber-gold font-bold"
+                href="https://maps.google.com/maps?q=Jl.+Siliwangi+Jl.+Jombor+Lor,+Mlati+Krajan,+Sendangadi,+Kec.+Mlati,+Kabupaten+Sleman,+Daerah+Istimewa+Yogyakarta+55284"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute inset-0 bg-primary/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity font-label-sm text-label-sm text-amber-gold font-bold z-10 backdrop-blur-sm"
               >
-                Lihat Panduan Logistik
+                Buka di Google Maps
               </a>
             </div>
             <div className="flex items-center gap-space-sm pt-space-xs">
@@ -134,7 +141,7 @@ export default function Footer() {
           data-aos-delay="100"
           className="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-primary-container font-body-sm text-body-sm border-t border-primary-container"
         >
-          <p>© 2024 PT Conblock Prima Indonesia. Hak Cipta Dilindungi Undang-Undang.</p>
+          <p>© 2026 Ecovig. Hak Cipta Dilindungi Undang-Undang.</p>
           <div className="flex items-center gap-space-md">
             <a href="#katalog-produk" className="hover:text-amber-gold transition-colors">
               Katalog Teknis

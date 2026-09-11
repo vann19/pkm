@@ -2,12 +2,13 @@ const testimonials = [
   {
     stars: 5,
     quote:
-      '"Pengiriman 12.000 m² paving bata ke site kami di Cikarang tepat waktu sesuai milestone proyek. Hasil uji slump dan kuat tekan K-400 konsisten di seluruh batch pengiriman pabrik."',
+      '"Saya memilih Ecoving karena inovatif memanfaatkan limbah plastik dan serat kelapa. Selain kokoh, produk ini terbukti nyata ramah lingkungan."',
     avatarBg: "bg-primary",
     avatarText: "text-on-primary",
     initials: "HG",
-    name: "Ir. Hendra Gunawan",
-    role: "Project Manager PT Adhi Karya Citra",
+    name: "Iwan",
+    role: "Pelanggan Ecoving",
+    image: "img/iwan.jpeg",
   },
   {
     stars: 5,
@@ -18,6 +19,7 @@ const testimonials = [
     initials: "BS",
     name: "Budi Santoso",
     role: "Developer Cluster Green Serpong",
+    image: "https://i.pravatar.cc/150?img=12",
   },
   {
     stars: 5,
@@ -28,6 +30,7 @@ const testimonials = [
     initials: "DW",
     name: "Diana Wijaya",
     role: "Owner Private Villa & Boutique Resort",
+    image: "https://i.pravatar.cc/150?img=5",
   },
 ];
 
@@ -86,11 +89,18 @@ export default function TestimoniSection() {
                 </p>
               </div>
               <div className="flex items-center gap-space-sm pt-space-md border-t border-surface-container">
-                <div
-                  className={`w-12 h-12 rounded-full ${t.avatarBg} flex items-center justify-center ${t.avatarText} font-headline-sm font-bold`}
-                >
-                  {t.initials}
-                </div>
+                {t.image ? (
+                  <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 bg-surface-container">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={t.image} alt={t.name} className="w-full h-full object-cover" />
+                  </div>
+                ) : (
+                  <div
+                    className={`w-12 h-12 rounded-full ${t.avatarBg} flex items-center justify-center ${t.avatarText} font-headline-sm font-bold flex-shrink-0`}
+                  >
+                    {t.initials}
+                  </div>
+                )}
                 <div>
                   <p className="font-label-md text-label-md text-primary font-bold">{t.name}</p>
                   <p className="font-body-sm text-body-sm text-on-surface-variant">{t.role}</p>

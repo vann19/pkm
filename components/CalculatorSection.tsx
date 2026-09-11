@@ -149,10 +149,12 @@ export default function CalculatorSection() {
               <button
                 type="button"
                 onClick={handleSendWa}
-                className="w-full inline-flex items-center justify-center gap-space-xs bg-[#25D366] hover:bg-[#1faa52] text-on-primary py-3 rounded-xl font-label-md text-label-md font-bold transition-colors shadow-md"
+                className="group w-full inline-flex items-center justify-center gap-2.5 bg-[#25D366] hover:bg-[#22c35e] active:bg-[#1da851] text-white py-3.5 sm:py-4 px-6 rounded-xl font-bold text-sm sm:text-base transition-all duration-300 shadow-[0_8px_16px_rgba(37,211,102,0.25)] hover:shadow-[0_12px_24px_rgba(37,211,102,0.35)] hover:-translate-y-0.5"
               >
-                <span className="material-symbols-outlined text-[20px]">send</span>
-                <span>Dapatkan Penawaran WhatsApp untuk Kalkulasi Ini</span>
+                <span className="material-symbols-outlined text-[22px] transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5">
+                  send
+                </span>
+                <span>Kirim Kalkulasi via WhatsApp</span>
               </button>
             </div>
           </div>

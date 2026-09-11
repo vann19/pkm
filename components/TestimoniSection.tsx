@@ -13,25 +13,15 @@ const testimonials = [
   {
     stars: 5,
     quote:
-      '"Presisi sudut dan ketebalannya sangat rapi, tukang kami tidak perlu banyak motong atau pasang ulang. Nilai plus untuk jalan utama perumahan karena tidak ada genangan saat hujan deras."',
+      '" “Paving Block Ecoving menjadi kunci utama dalam penataan taman untuk kompetisi OLIVIA. Produknya tidak hanya estetik dan presisi saat dipasang, tetapi konsep ramah lingkungannya memberi nilai tambah besar hingga kami berhasil meraih Juara 1.”"',
     avatarBg: "bg-amber-gold",
     avatarText: "text-primary",
     initials: "BS",
-    name: "Budi Santoso",
-    role: "Developer Cluster Green Serpong",
-    image: "https://i.pravatar.cc/150?img=12",
+    name: "Tim Mahasiswa UNS",
+    role: "Juara 1 Lomba OLIVIA Landscape Gardening  Design",
+    image: "img/uns_person.jpeg",
   },
-  {
-    stars: 5,
-    quote:
-      '"Warna terracotta sangat konsisten dan estetika driveway langsung naik kelas. Pelayanan via WhatsApp sangat solutif dalam memberi rekomendasi pola susun sarang lebah."',
-    avatarBg: "bg-primary-container",
-    avatarText: "text-on-primary",
-    initials: "DW",
-    name: "Diana Wijaya",
-    role: "Owner Private Villa & Boutique Resort",
-    image: "https://i.pravatar.cc/150?img=5",
-  },
+
 ];
 
 export default function TestimoniSection() {

@@ -5,8 +5,6 @@ import { useState, useEffect } from "react";
 const pavingOptions = [
   { label: "Paving Bata (44 pcs/m²)", pcsPerM2: 44, name: "Paving Bata (10x20 cm)" },
   { label: "Paving Hexagon (27 pcs/m²)", pcsPerM2: 27, name: "Paving Hexagon (Dia. 20 cm)" },
-  { label: "Paving Trihex / Cacing (39 pcs/m²)", pcsPerM2: 39, name: "Paving Trihex / Cacing" },
-  { label: "Grass Block (6.25 pcs/m²)", pcsPerM2: 6.25, name: "Grass Block (40x40 cm)" },
 ];
 
 export default function CalculatorSection() {

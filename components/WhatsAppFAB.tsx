@@ -8,7 +8,7 @@ export default function WhatsAppFAB() {
         Hubungi Pabrik Kami
       </span>
       <a
-        href="https://wa.me/628118920443?text=Halo%20Conblock%20Prima,%20saya%20ingin%20konsultasi"
+        href="https://wa.me/6282192231128?text=Halo%20Conblock%20Prima,%20saya%20ingin%20konsultasi"
         target="_blank"
         rel="noopener noreferrer"
         className="relative flex items-center justify-center w-14 h-14 bg-[#25D366] hover:bg-[#1faa52] text-on-primary rounded-full shadow-[0_8px_24px_rgba(37,211,102,0.4)] transition-transform transform hover:scale-105"

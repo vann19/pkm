@@ -171,7 +171,7 @@ export default function Header() {
           {/* CTA + Hamburger */}
           <div className="flex items-center gap-space-sm">
             <a
-              href="https://wa.me/628118920443?text=Halo%20ECOVING,%20saya%20ingin%20konsultasi%20penawaran%20harga%20paving%20block"
+              href="https://wa.me/6282192231128?text=Halo%20ECOVING,%20saya%20ingin%20konsultasi%20penawaran%20harga%20paving%20block"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:inline-flex items-center gap-space-xs bg-[#25D366] hover:bg-[#1faa52] text-on-primary px-space-md py-space-xs rounded-lg font-label-md text-label-md shadow-[0_2px_8px_rgba(37,211,102,0.35)] transition-all duration-200 transform hover:-translate-y-0.5 active:scale-95"
@@ -241,7 +241,7 @@ export default function Header() {
             })}
 
             <a
-              href="https://wa.me/628118920443?text=Halo%20ECOVING,%20saya%20ingin%20konsultasi%20penawaran%20harga%20paving%20block"
+              href="https://wa.me/6282192231128?text=Halo%20ECOVING,%20saya%20ingin%20konsultasi%20penawaran%20harga%20paving%20block"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 inline-flex items-center justify-center gap-space-xs bg-[#25D366] hover:bg-[#1faa52] text-on-primary px-space-md py-3 rounded-xl font-label-md text-label-md font-bold shadow transition-all"

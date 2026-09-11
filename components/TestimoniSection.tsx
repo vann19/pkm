@@ -26,7 +26,7 @@ const testimonials = [
 
 export default function TestimoniSection() {
   return (
-    <section id="testimoni" className="w-full py-space-4xl bg-surface-container-low/40 border-t border-surface-container">
+    <section id="testimoni" className="w-full py-space-4xl bg-surface-container-low/40 border-t border-surface-container overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
         {/* Section header */}
         <div className="flex flex-col items-center text-center mb-space-3xl">

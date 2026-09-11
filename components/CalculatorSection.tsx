@@ -27,11 +27,11 @@ export default function CalculatorSection() {
     const text = encodeURIComponent(
       `Halo Conblock Prima, saya telah menghitung kebutuhan di website:\n- Produk: ${pavingName}\n- Luas: ${area} m²\n- Estimasi Kebutuhan: ${totalPcs.toLocaleString("id-ID")} pcs.\n\nMohon info harga diskon pabrik dan ongkos kirim ke lokasi saya.`
     );
-    window.open(`https://wa.me/628118920443?text=${text}`, "_blank");
+    window.open(`https://wa.me/6282192231128?text=${text}`, "_blank");
   };
 
   return (
-    <section className="w-full py-space-3xl bg-surface-container-low/50 border-t border-surface-container">
+    <section className="w-full py-space-3xl bg-surface-container-low/50 border-t border-surface-container overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
         <div
           data-aos="fade-up"

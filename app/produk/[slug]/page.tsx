@@ -133,7 +133,7 @@ export default async function ProductDetailPage({
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 mt-2">
               <a
-                href={`https://wa.me/628118920443?text=${product.waText}`}
+                href={`https://wa.me/6282192231128?text=${product.waText}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1faa52] text-white py-3.5 rounded-xl font-label-md text-label-md font-bold shadow-sm hover:shadow transition-all"

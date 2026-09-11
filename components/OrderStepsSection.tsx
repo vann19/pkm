@@ -1,6 +1,6 @@
 export default function OrderStepsSection() {
   return (
-    <section className="w-full py-space-4xl bg-surface">
+    <section className="w-full py-space-4xl bg-surface overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
         {/* Section header */}
         <div className="flex flex-col items-center text-center mb-space-3xl">
@@ -110,7 +110,7 @@ export default function OrderStepsSection() {
             </p>
           </div>
           <a
-            href="https://wa.me/628118920443?text=Halo%20Conblock%20Prima,%20saya%20ingin%20minta%20sampel%20dan%20penawaran%20harga%20resmi"
+            href="https://wa.me/6282192231128?text=Halo%20Conblock%20Prima,%20saya%20ingin%20minta%20sampel%20dan%20penawaran%20harga%20resmi"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-space-xs bg-[#25D366] hover:bg-[#1faa52] text-on-primary px-space-xl py-3.5 rounded-xl font-label-md text-label-md font-bold shadow-lg transition-transform transform hover:scale-105 whitespace-nowrap"

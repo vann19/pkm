@@ -70,7 +70,7 @@ const galleryItems = [
 
 export default function GallerySection() {
   return (
-    <section id="galeri" className="w-full py-space-4xl bg-surface">
+    <section id="galeri" className="w-full py-space-4xl bg-surface overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-space-2xl gap-space-md">

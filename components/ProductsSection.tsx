@@ -20,7 +20,7 @@ export default function ProductsSection() {
   );
 
   return (
-    <section id="katalog-produk" className="w-full py-space-4xl bg-surface-container-low/60 border-t border-surface-container">
+    <section id="katalog-produk" className="w-full py-space-4xl bg-surface-container-low/60 border-t border-surface-container overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
 
         {/* Header */}
@@ -136,7 +136,7 @@ export default function ProductsSection() {
                     <span>Lihat Detail</span>
                   </Link>
                   <a
-                    href={`https://wa.me/628118920443?text=${product.waText}`}
+                    href={`https://wa.me/6282192231128?text=${product.waText}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full inline-flex items-center justify-center gap-space-xs bg-[#25D366] hover:bg-[#1faa52] text-on-primary py-3 rounded-xl font-label-md text-label-md font-bold shadow-sm hover:shadow transition-all"

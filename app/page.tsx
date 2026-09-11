@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="w-full pt-20 bg-background">
-        <div className="flex flex-col w-full overflow-hidden">
+      <main className="w-full max-w-full pt-20 bg-background overflow-x-hidden">
+        <div className="flex flex-col w-full max-w-full overflow-x-hidden">
           <HeroSection />
           <StatsSection />
           <FeaturesSection />

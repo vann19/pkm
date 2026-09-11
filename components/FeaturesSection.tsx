@@ -31,7 +31,7 @@ const features = [
 
 export default function FeaturesSection() {
   return (
-    <section id="keunggulan" className="w-full py-space-4xl bg-surface">
+    <section id="keunggulan" className="w-full py-space-4xl bg-surface overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
         {/* Section header */}
         <div className="flex flex-col items-center text-center mb-space-3xl">

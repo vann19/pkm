@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer
       id="kontak"
-      className="w-full bg-[#08274A] text-on-primary pt-space-3xl pb-space-2xl border-t border-primary-container"
+      className="w-full overflow-hidden bg-[#08274A] text-on-primary pt-space-3xl pb-space-2xl border-t border-primary-container"
     >
       <div className="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl pb-space-2xl">
@@ -53,10 +53,7 @@ export default function Footer() {
             </p>
             <div className="pt-space-xs space-y-space-2xs font-body-sm text-body-sm text-on-primary-container">
               <p>
-                <strong className="text-on-primary">Telepon Pabrik:</strong> +62 21 8934 1120
-              </p>
-              <p>
-                <strong className="text-on-primary">WhatsApp Hotline:</strong> +62 811 8920 443
+                <strong className="text-on-primary">Kontak:</strong> +62 821-9223-1128
               </p>
               <p>
                 <strong className="text-on-primary">Email:</strong> marketing@conblockprima.co.id

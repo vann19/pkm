@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <section
       id="beranda"
-      className="relative w-full bg-surface-container-low/50 pb-space-3xl pt-space-xl border-b border-surface-container"
+      className="relative w-full overflow-hidden bg-surface-container-low/50 pb-space-3xl pt-space-xl border-b border-surface-container"
     >
       <div className="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter-desktop">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
@@ -49,7 +49,7 @@ export default function HeroSection() {
               className="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-sm w-full sm:w-auto"
             >
               <a
-                href="https://wa.me/628118920443?text=Halo%20Conblock%20Prima,%20saya%20ingin%20konsultasi%20penawaran%20harga%20paving%20block"
+                href="https://wa.me/6282192231128?text=Halo%20Conblock%20Prima,%20saya%20ingin%20konsultasi%20penawaran%20harga%20paving%20block"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-space-xs bg-[#25D366] hover:bg-[#1faa52] text-on-primary px-space-lg py-3.5 rounded-xl font-label-md text-label-md shadow-[0_8px_20px_rgba(37,211,102,0.35)] transition-all transform hover:-translate-y-0.5 font-bold"
@@ -70,7 +70,7 @@ export default function HeroSection() {
             <div
               data-aos="fade-up"
               data-aos-delay="400"
-              className="grid grid-cols-3 gap-space-xs mt-space-xl pt-space-md w-full border-t border-surface-container"
+              className="grid grid-cols-1 sm:grid-cols-3 gap-space-xs mt-space-xl pt-space-md w-full border-t border-surface-container"
             >
               <div className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-amber-gold text-[20px]">check_circle</span>
@@ -102,7 +102,7 @@ export default function HeroSection() {
                 alt="Instalasi Paving Block Arsitektural Mewah"
                 width={800}
                 height={460}
-                className="w-full h-[460px] object-cover hover:scale-105 transition-transform duration-700"
+                className="w-full h-[260px] sm:h-[360px] lg:h-[460px] object-cover hover:scale-105 transition-transform duration-700"
                 unoptimized
               />
               {/* Floating overlay */}

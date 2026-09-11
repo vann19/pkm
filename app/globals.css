@@ -9,6 +9,8 @@
   }
   body {
     overscroll-behavior: none;
+    width: 100%;
+    overflow-x: clip;
   }
   main > :first-child {
     margin-top: 0 !important;

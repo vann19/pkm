@@ -18,9 +18,67 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Conblock Prima – Produsen Paving Block Mutu Tinggi Indonesia",
+  title: "Ecoving - Concrete Paver Terkemuka Indonesia | Pabrik Paving Block",
   description:
     "Produsen paving block mutu tinggi K-300 hingga K-500 dengan teknologi hydraulic vibro-press. Layanan langsung pabrik untuk proyek perumahan, kawasan industri, dan jalan raya seluruh Indonesia.",
+  keywords: [
+    "paving block",
+    "conblock",
+    "paving block k300",
+    "paving block k400",
+    "paving block k500",
+    "pabrik paving block",
+    "jual paving block",
+    "harga paving block",
+    "paving block indonesia",
+    "hydraulic vibro-press",
+    "ecoving",
+  ],
+  authors: [{ name: "Ecoving" }],
+  creator: "Ecoving",
+  openGraph: {
+    type: "website",
+    locale: "id_ID",
+    url: "https://www.ecoving.co.id", // Ganti dengan URL domain asli Anda nantinya
+    title: "Ecoving - Concrete Paver Terkemuka Indonesia",
+    description:
+      "Produsen paving block mutu tinggi K-300 hingga K-500 dengan teknologi hydraulic vibro-press. Layanan langsung pabrik untuk proyek perumahan, kawasan industri, dan jalan raya seluruh Indonesia.",
+    siteName: "Ecoving",
+    images: [
+      {
+        url: "/images/og-image.jpg", // Pastikan Anda memiliki gambar ini di folder public/images/
+        width: 1200,
+        height: 630,
+        alt: "Ecoving Paving Block",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ecoving - Concrete Paver Terkemuka Indonesia",
+    description:
+      "Produsen paving block mutu tinggi K-300 hingga K-500 dengan teknologi hydraulic vibro-press.",
+    images: ["/images/og-image.jpg"],
+  },
+  icons: {
+    icon: "/favicon.ico", // Pastikan ada file favicon.ico di folder public
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png", // Pastikan ada file apple-touch-icon.png (180x180px) di folder public
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: "O_fIMG8sWsKri9iBJalWMCvXW4zK1veY__e1zo5WOLI",
+  },
 };
 
 export default function RootLayout({
